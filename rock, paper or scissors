@@ -37,8 +37,9 @@ var compare = function(choice1, choice2) {
     }
 }
 compare(userChoice, computerChoice);
-var play = prompt("Do you wanna play more yes/no?");
-if (play = 'yes'){
+var playAgain = prompt("Do you wanna play more yes/no?");
+if (playAgain = 'yes'){
 	play();
-}
+} else {
+exit;}
 }
