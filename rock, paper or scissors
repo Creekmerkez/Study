@@ -38,8 +38,8 @@ var compare = function(choice1, choice2) {
 }
 compare(userChoice, computerChoice);
 var playAgain = prompt("Do you wanna play more yes/no?");
-if (playAgain = 'yes'){
+console.log(playAgain);
+if (playAgain === 'yes'){
 	play();
-} else {
-exit;}
+}
 }
